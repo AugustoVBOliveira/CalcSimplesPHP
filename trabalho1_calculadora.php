@@ -58,21 +58,21 @@
                 echo "<br /> A opção escolhida é: ".$opcao." (SOMA)";                
                 $res = soma($valor1,$valor2);
                 
-                echo "<br /><br /> val1: ".$valor1."<br /> val2: ".$valor2;
+                echo "<br /><br /> valor1 = ".$valor1."<br /> valor2 = ".$valor2;
                 echo "<br /> ".$valor1." + ".$valor2." = ".$res;
                 break;
             case 2:
                 echo "<br /> A opção escolhida é: ".$opcao." (SUBTRAÇÃO)";
                 $res = subt($valor1,$valor2);
                 
-                echo "<br /><br /> val1: ".$valor1."<br /> val2: ".$valor2;
+                echo "<br /><br /> valor1 = ".$valor1."<br /> valor2 = ".$valor2;
                 echo "<br /> ".$valor1." - ".$valor2." = ".$res;
                 break;
             case 3:
                 echo "<br /> A opção escolhida é: ".$opcao." (MULTIPLICAÇÃO)";
                 $res = mult($valor1,$valor2);
                 
-                echo "<br /><br /> val1: ".$valor1."<br /> val2: ".$valor2;
+                echo "<br /><br /> valor1 = ".$valor1."<br /> valor2 = ".$valor2;
                 echo "<br /> ".$valor1." * ".$valor2." = ".$res;
                 break;
             case 4:
@@ -85,7 +85,7 @@
                     echo $aviso;
                 } else {
                     $res = divi($valor1,$valor2);
-                    echo "<br /><br /> val1: ".$valor1."<br /> val2: ".$valor2;
+                    echo "<br /><br /> valor1 = ".$valor1."<br /> valor2 = ".$valor2;
                     echo "<br /> ".$valor1." / ".$valor2." = ".$res;
                 }
                 break;
@@ -99,7 +99,7 @@
                     echo $aviso;
                 } else {
                     $res = modu($valor1,$valor2);
-                    echo "<br /><br /> val1: ".$valor1."<br /> val2: ".$valor2;
+                    echo "<br /><br /> valor1 = ".$valor1."<br /> valor2 = ".$valor2;
                     echo "<br /> ".$valor1." % ".$valor2." = ".$res;
                 }
                 break;
